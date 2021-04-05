@@ -1,0 +1,1 @@
+select count(StudentName), Country from students group by Country order by count(StudentName) desc;
